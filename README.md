@@ -22,5 +22,5 @@ What's else present?
 
 ```
 git clone https://github.com/windwalk-bushido/Vue-Boilerplate.git
-./Vue-Boilerplate/install.sh
+bash Vue-Boilerplate/install.sh
 ```

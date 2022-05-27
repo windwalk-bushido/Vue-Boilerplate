@@ -31,7 +31,7 @@ mv package-lock.json ~/Vue-Boilerplate
 cd ..
 rm -r $project_name
 mv ~/Vue-Boilerplate ~/$project_name
-mv $project_name .
+mv ~/$project_name .
 cd $project_name
 npm i
 
