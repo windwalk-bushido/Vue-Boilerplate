@@ -28,12 +28,14 @@ npm i axios
 
 mv package.json ~/Vue-Boilerplate
 mv package-lock.json ~/Vue-Boilerplate
-cd ..
+cd ~/Projects
 rm -r $project_name
 mv ~/Vue-Boilerplate ~/$project_name
 mv ~/$project_name .
-cd $project_name
+cd ~/Projects/$project_name
 npm i
+echo $project_name > README.md
+sudo rm -r .git
+mv gitignore .gitignore
 
-
-echo "DONE!"
+echo "Now just remove this shell script ('install.sh'). Enjoy"
